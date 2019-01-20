@@ -1,0 +1,36 @@
+body{
+	background-image:linear-gradient(to right,rgb(155,155,155),rgb(255,255,155)); 
+}
+canvas{
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:25px;
+	background: red;
+	border-radius:5%;
+	display:border;
+	border:2px solid rgb(255,255,255);
+	transition: all .4s;
+}
+canvas:hover{
+	box-shadow:0rem 1.2rem 1.4rem rgba(0,0,0,.4);
+	transform: translate(-0.3%,-0.3%);
+}
+
+h3{
+	font-family: sans-serif;
+	 background-image: linear-gradient(to right,rgb(0,0,0),#111);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip:text;
+    -moz-fill:transparent;
+}
+
+/*@media screen and (max-width: 1000px) {
+    canvas{
+    	margin-left:50%;
+    	transform:translate(-50%,0);
+    }
+    canvas:hover{
+    	transform:translate(-0.05%,-0.05%);
+    }
+}*/
